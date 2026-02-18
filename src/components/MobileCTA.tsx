@@ -1,3 +1,5 @@
+import "./MobileCTA.css";
+
 export default function MobileCTA() {
   return (
     <div className="mobile-cta" role="region" aria-label="Ações rápidas">

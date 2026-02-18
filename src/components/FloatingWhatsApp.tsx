@@ -1,3 +1,5 @@
+import "./FloatingWhatsApp.css";
+
 export default function FloatingWhatsApp() {
   return (
     <a

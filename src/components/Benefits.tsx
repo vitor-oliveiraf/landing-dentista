@@ -1,3 +1,5 @@
+import "./Benefits.css";
+
 export default function Benefits() {
   return (
     <section id="beneficios">

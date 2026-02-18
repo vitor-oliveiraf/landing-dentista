@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import "./ResultsBeforeAfter.css";
 
 export default function ResultsBeforeAfter() {
   const [value, setValue] = useState(50);

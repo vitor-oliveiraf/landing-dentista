@@ -1,0 +1,25 @@
+.quote {
+  position: relative;
+  padding-top: 28px;
+}
+
+.quote::before {
+  content: "“";
+  position: absolute;
+  top: -6px;
+  left: 16px;
+  font-size: 56px;
+  line-height: 1;
+  color: rgba(212, 175, 55, 0.45);
+  font-family: "Playfair Display", serif;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+  color: rgba(241, 210, 122, 0.95);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+}

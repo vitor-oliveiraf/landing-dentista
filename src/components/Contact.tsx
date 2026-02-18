@@ -1,4 +1,5 @@
 import { type FormEvent } from "react";
+import "./Contact.css";
 
 export default function Contact() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {

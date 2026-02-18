@@ -1,3 +1,5 @@
+import "./Testimonials.css";
+
 export default function Testimonials() {
   return (
     <section id="depoimentos">
